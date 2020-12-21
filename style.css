@@ -2,13 +2,10 @@
     background-color: black;
 }
 
-img {
-    width: 10vw;
-    height: 10vw;
-}
-
 #section1 {
     text-align: center;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
 }
 
 h1 {
@@ -43,6 +40,6 @@ a:hover {
     color: orange;
 }
 
-nav a {
+a {
     text-decoration: none;
 }
