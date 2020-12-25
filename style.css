@@ -2,9 +2,9 @@
     background-color: lightpink;
 }
 
-#section1 {
+#section3 {
     text-align: left;
-    margin-top: 90vw;
+    margin-top: 20vw;
 }
 
 h1 {
@@ -62,4 +62,9 @@ hr {
 img {
     width: 30vw;
     height: 30vw;
+}
+
+video {
+    width: 50vw;
+    height: 70vw;
 }
