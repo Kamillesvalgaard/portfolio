@@ -2,9 +2,18 @@
     background-color: lightpink;
 }
 
+#section1 {
+    margin-top: 10vw;
+    margin-left: 45vw;
+}
+
+#section2 {
+    margin-top: -30vw;
+}
+
+
 #section3 {
     text-align: left;
-    margin-top: 20vw;
 }
 
 h1 {
