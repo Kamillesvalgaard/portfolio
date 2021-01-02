@@ -1,18 +1,36 @@
-* {
+body {
     background-color: lightpink;
+}
+
+.section_wrapper {
+    background-color: white;
+    margin-top: 15vw;
+    position: fixed;
+    width: 350px;
+    margin-left: 10%;
+    border: solid black 2px;
 }
 
 
 h1 {
     color: black;
     font-size: 5vw;
-    margin-left: 5vw;
-    margin-top: -1vw;
+    margin: 5vw;
+    font-family: 'Merriweather', serif;
+
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 3vw;
+    margin: 5vw;
+
 }
 
 h2 {
     color: black;
     font-size: 3vw;
+
 }
 
 
@@ -75,4 +93,11 @@ img {
 #section3 {
     text-align: left;
     font-family: 'Merriweather', serif;
+}
+
+video {
+    width: 400px;
+    margin-left: 3.5%;
+    opacity: 70%;
+    position: fixed;
 }
