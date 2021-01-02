@@ -88,3 +88,10 @@ video {
     text-decoration: underline;
     font-size: 2.7vw;
 }
+
+.section_wrapper img {
+    width: 50vw;
+    height: 50vw;
+    margin-left: 5vw;
+
+}
