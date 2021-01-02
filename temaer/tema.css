@@ -1,11 +1,5 @@
-body {
-    background-color: lightpink;
-}
-
 .section_wrapper {
-    background-color: white;
-    margin-top: 15vw;
-    position: fixed;
+    background-color: #DEB6C3;
     width: 350px;
     margin-left: 10%;
     border: solid black 2px;
@@ -14,17 +8,17 @@ body {
 
 h1 {
     color: black;
-    font-size: 5vw;
-    margin: 5vw;
+    font-size: 7vw;
+    margin-left: 5vw;
     font-family: 'Merriweather', serif;
-
 }
 
 p {
     font-family: 'Merriweather', serif;
     font-size: 2.5vw;
-    margin: 5vw;
-
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
 }
 
 h2 {
@@ -61,10 +55,12 @@ nav a {
 nav img {
     width: 13vw;
     height: 13vw;
+    margin-top: 2vw;
+
 }
 
 nav {
-    height: 70px;
+    height: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -82,10 +78,11 @@ img {
 
 #section1 {
     margin-top: 5vw;
-    margin-left: 15%;
+    margin-left: 14%;
 }
 
-#section1 nav a {
+#section1 nav a,
+footer {
     text-decoration: underline;
     font-size: 2.7vw;
 }
@@ -96,8 +93,12 @@ img {
 }
 
 video {
-    width: 400px;
-    margin-left: 3.5%;
-    opacity: 70%;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 50%;
+    z-index: -1;
 }
