@@ -1,23 +1,31 @@
-* {
+body {
     background-color: lightpink;
 }
 
-#section1 {
-    text-align: left;
-    margin-top: 90vw;
+.section_wrapper {
+    background-color: white;
+    margin-top: 15vw;
+    position: fixed;
+    width: 350px;
+    margin-left: 10%;
+    border: solid black 2px;
 }
+
+
 
 h1 {
     color: black;
-    font-size: 10vw;
-    margin-bottom: -1vw;
+    font-size: 5vw;
+    margin: 5vw;
+    font-family: 'Merriweather', serif;
 }
 
-h2 {
-    color: black;
-    font-size: 3vw;
-}
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5vw;
+    margin: 5vw;
 
+}
 
 a:link {
     color: black;
@@ -62,4 +70,21 @@ hr {
 img {
     width: 30vw;
     height: 30vw;
+}
+
+video {
+    width: 400px;
+    margin-left: 3.5%;
+    opacity: 70%;
+    position: fixed;
+}
+
+#section1 {
+    margin-top: 5vw;
+    margin-left: 15%;
+}
+
+#section1 nav a {
+    text-decoration: underline;
+    font-size: 2.7vw;
 }
