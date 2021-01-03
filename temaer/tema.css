@@ -116,7 +116,8 @@ video {
 }
 
 .splashbillede img,
-.moodboard img {
+.moodboard img,
+.navcss img {
     width: 85%;
     height: 85%;
     margin-left: 5vw;
