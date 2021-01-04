@@ -132,7 +132,8 @@ video {
 .navcss img,
 .decide img,
 .ui3 img,
-.ui4 img {
+.ui4 img,
+.pitch img {
     width: 85%;
     height: 85%;
     margin-left: 5vw;
