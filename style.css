@@ -83,4 +83,6 @@ video {
     height: 70vw;
     border: solid black 2px;
     margin-left: 5vw;
+    border-radius: 7px;
+    box-shadow: 5px 5px #9b7682;
 }
