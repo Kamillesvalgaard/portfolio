@@ -136,9 +136,31 @@ video {
 .decide img,
 .ui3 img,
 .ui4 img,
-.pitch img {
+.pitch img,
+.forsteudkast img,
+.statem img {
     width: 85%;
     height: 85%;
+    margin-left: 5vw;
+}
+
+.assets1 img {
+    width: 10%;
+    height: 10%;
+    margin-left: 5vw;
+}
+
+.uiani1 img,
+.aiani2 img {
+    width: 30%;
+    height: 30%;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.assets2 img,
+    {
+    width: 20%;
     margin-left: 5vw;
 }
 
