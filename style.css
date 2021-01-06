@@ -18,6 +18,10 @@
     font-family: 'Merriweather', serif;
 }
 
+#section4 {
+    display: none;
+}
+
 h1 {
     color: black;
     font-size: 10vw;
@@ -206,8 +210,294 @@ video {
 }
 
 @media (min-width: 720px) {
+
+
+
+    #section4 {
+        display: flow-root;
+        margin-top: -45vw;
+        margin-left: -1vw;
+    }
+
+    #section1 {
+        margin-left: 65vw;
+    }
+
+    #section2 {
+        margin-left: 27vw;
+        margin-top: -25vw;
+    }
+
     video {
-        width: 27vw;
-        height: 48vw;
+        width: 20vw;
+        height: 35.6vw;
+    }
+
+    h1 {
+        margin-top: 6vw;
+    }
+
+    nav a {
+        font-size: 2vw;
+    }
+
+    nav img {
+        width: 10vw;
+        height: 10vw;
+    }
+
+
+}
+
+
+
+@media (min-width: 800px) {
+
+    hr {
+        display: none;
+    }
+
+    nav a {
+        font-size: 1.7vw;
+    }
+
+    #nava {
+        margin-top: 17vw;
+        margin-left: -100px;
+        width: 170px;
+    }
+
+    #navb {
+        margin-top: 30vw;
+        margin-left: -190px;
+        width: 170px;
+    }
+
+    #navc {
+        margin-top: 41vw;
+        margin-left: -190px;
+        width: 170px;
+    }
+
+    #section4 {
+        margin-left: 67vw;
+        margin-top: -5vw;
+    }
+
+    #section1 {
+        margin-left: 27vw;
+        margin-top: -1vw;
+    }
+
+    #section2 {
+        margin-left: 55vw;
+        margin-top: -45vw;
+    }
+
+    h1 {
+        text-align: left;
+        margin-top: -13vw;
+        font-size: 10vw;
+    }
+
+    h2 {
+        text-align: left;
+    }
+}
+
+@media (min-width: 870px) {
+    h1 {
+        font-size: 8vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+    }
+
+    video {
+        width: 19.2vw;
+        height: 34vw;
+    }
+
+    #section2 {
+        margin-top: -40vw;
+    }
+}
+
+@media (min-width: 930px) {
+    h1 {
+        font-size: 7vw;
+        margin-top: -13vw;
+
+    }
+
+    h2 {
+        font-size: 1.8vw;
+    }
+
+
+    #nava {
+        margin-top: 15vw;
+        margin-left: -120px;
+    }
+
+    #navb {
+        margin-top: 25vw;
+        margin-left: -188px;
+    }
+
+    #navc {
+        margin-top: 34vw;
+        margin-left: -188px;
+    }
+
+    nav a {
+        font-size: 1.5vw;
+    }
+
+    #section4 {
+        margin-top: -10vw;
+    }
+}
+
+@media (min-width: 930px) {
+
+    video {
+        width: 18vw;
+        height: 32vw;
+    }
+
+    #section2 {
+        margin-top: -37vw;
+    }
+
+}
+
+@media (min-width: 1050px) {
+    video {
+        width: 17vw;
+        height: 30.1vw;
+    }
+
+    #section2 {
+        margin-top: -38vw;
+    }
+
+    #section1 {
+        margin-top: 2vw;
+    }
+
+    h1 {
+        margin-top: -10vw;
+
+    }
+}
+
+@media (min-width: 1080px) {
+    nav a {
+        font-size: 1.3vw;
+    }
+
+    #nava {
+        margin-top: 15vw;
+        margin-left: -130px;
+    }
+
+    #navb {
+        margin-top: 24vw;
+        margin-left: -188px;
+    }
+
+    #navc {
+        margin-top: 32vw;
+        margin-left: -188px;
+    }
+
+    h1 {
+        font-size: 6vw;
+        margin-top: -9vw;
+
+    }
+
+    h2 {
+        font-size: 1.6vw;
+    }
+
+    video {
+        width: 16vw;
+        height: 28.3vw;
+    }
+
+    #section2 {
+        margin-top: -35vw;
+    }
+}
+
+@media (min-width: 1180px) {
+
+    h1 {
+        margin-top: -11vw;
+
+    }
+
+    nav img {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    nav a {
+        font-size: 1.2vw;
+    }
+
+    #nava {
+        margin-top: 13vw;
+        margin-left: -120px;
+    }
+
+    #navb {
+        margin-top: 22vw;
+        margin-left: -188px;
+    }
+
+    #navc {
+        margin-top: 29vw;
+        margin-left: -188px;
+    }
+
+
+    #section2 {
+        margin-top: -34vw;
+    }
+
+    #section1 {
+        margin-top: 0vw;
+    }
+}
+
+@media (min-width: 1240px) {
+    video {
+        width: 15.2vw;
+        height: 27vw;
+    }
+
+    #navb {
+        margin-top: 21vw;
+        margin-left: -188px;
+    }
+
+    #navc {
+        margin-top: 28vw;
+        margin-left: -188px;
+    }
+
+    #section2 {
+        margin-top: -32vw;
+        margin-left: 53vw;
+
+    }
+
+    h1 {
+        margin-top: -10vw;
+
     }
 }
