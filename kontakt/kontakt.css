@@ -17,7 +17,7 @@ a:hover {
 nav a {
     text-decoration: none;
     padding: 10px;
-    font-size: 2.7vw;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -55,6 +55,8 @@ footer {
     text-decoration: underline;
     font-size: 2.7vw;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -71,7 +73,7 @@ video {
 
 .section_wrapper {
     background-color: #DEB6C3;
-    width: 350px;
+    width: 80vw;
     margin-left: 10%;
     border: solid black 2px;
     border-radius: 10px;
@@ -114,5 +116,265 @@ p {
 
 .ommig {
     margin-bottom: 10vw;
+
+}
+
+
+@media (min-width: 550px) {
+
+    #section1 nav a,
+    footer {
+        font-size: 2.4vw;
+        padding: 17px;
+    }
+
+    #nav {
+        height: 80px;
+    }
+
+    nav img {
+        width: 11vw;
+        height: 11vw;
+        margin-top: -0.1vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+
+    .mailtele {
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    .ommig {
+        margin-bottom: 8vw;
+
+    }
+}
+
+@media (min-width: 650px) {
+
+    #section1 nav a,
+    footer {
+        font-size: 2.2vw;
+        padding: 23px;
+    }
+
+    #nav a {
+        font-size: 14px;
+    }
+
+    #nav {
+        height: 80px;
+    }
+
+    nav img {
+        width: 11vw;
+        height: 11vw;
+        margin-top: -0.1vw;
+    }
+
+    h1 {
+        font-size: 5.5vw;
+    }
+
+    p {
+        font-size: 1.8vw;
+    }
+
+    .mailtele {
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+    }
+
+    .ommig {
+        margin-bottom: 7vw;
+
+    }
+}
+
+@media (min-width: 800px) {
+
+    #section1 nav a,
+    footer {
+        font-size: 2vw;
+        padding: 30px;
+    }
+
+    #nav a {
+        font-size: 15px;
+    }
+
+    nav img {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+
+    .mailtele {
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+
+    .ommig {
+        margin-bottom: 6vw;
+
+    }
+
+
+}
+
+@media (min-width: 950px) {
+    #nav {
+        height: 60px;
+    }
+
+    nav img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #section1 nav a,
+    footer {
+        font-size: 1.5vw;
+        padding: 45px;
+    }
+
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 1.3vw;
+    }
+
+    .mailtele {
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+
+    .ommig {
+        margin-bottom: 4vw;
+
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    nav {
+        width: 70%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #nava {
+        margin-top: 12vw;
+        margin-left: -90px;
+        width: 170px;
+    }
+
+    #navb {
+        margin-top: 23vw;
+        margin-left: -190px;
+        width: 170px;
+    }
+
+    #navc {
+        margin-top: 32vw;
+        margin-left: -190px;
+        width: 170px;
+    }
+
+    .section_wrapper {
+        width: 60vw;
+        margin-left: 30vw;
+        margin-bottom: 5vw;
+
+    }
+
+    #section1 nav {
+        margin-left: 20vw;
+        margin-top: -10vw;
+    }
+
+    #section1 nav a {
+        font-size: 1.5vw;
+        padding: 25px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    nav img {
+        width: 7vw;
+        height: 7vw;
+    }
+
+}
+
+@media (min-width: 1100px) {
+
+    nav {
+        width: 65%;
+    }
+
+    #nava {
+        margin-left: -110px;
+    }
+
+    #navb {
+        margin-top: 21vw;
+
+    }
+
+    #navc {
+        margin-top: 28vw;
+
+    }
+
+    .section_wrapper {
+        width: 50vw;
+        margin-left: 40vw;
+
+    }
+
+    #section1 nav {
+        margin-left: 30vw;
+    }
+
+    #section1 nav a {
+        font-size: 1.2vw;
+        padding: 25px;
+    }
+
+    nav img {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    h1 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 1.1vw;
+    }
 
 }
