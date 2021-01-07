@@ -52,6 +52,19 @@ a:active {
 
 a:hover {
     color: white;
+    animation-name: scale_kf;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes scale_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 nav a {
@@ -513,6 +526,10 @@ ul li {
     nav img {
         width: 8vw;
         height: 8vw;
+    }
+
+    ul li {
+        margin-left: 2.5vw;
     }
 
 

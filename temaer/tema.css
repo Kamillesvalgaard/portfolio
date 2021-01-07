@@ -55,6 +55,19 @@ a:active {
 
 a:hover {
     color: white;
+    animation-name: scale_kf;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes scale_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 nav a {
@@ -97,8 +110,9 @@ img {
     width: 19vw;
     justify-content: center;
     border-radius: 5px;
-
 }
+
+
 
 #section1 {
     margin-top: 5vw;
@@ -236,11 +250,17 @@ figcaption {
     .pitch img,
     .forsteudkast img,
     .statem img {
-        width: 85%;
-        height: 85%;
-        margin-left: 5vw;
+        width: 70%;
+        height: 70%;
     }
 
+    .website {
+        padding: 7px;
+    }
+
+    .section_wrapper a {
+        font-size: 2vw;
+    }
 
     #section1 nav a,
     footer {
@@ -282,8 +302,12 @@ figcaption {
 
     .section_wrapper {
         width: 65vw;
-        margin-left: 15vw;
+        margin-left: 17vw;
 
+    }
+
+    .website {
+        width: 20vw;
     }
 
     #section1 {
@@ -347,19 +371,19 @@ figcaption {
         width: 80%;
     }
 
-    #nava {
+    .nava {
         margin-top: 12vw;
         margin-left: -80px;
         width: 170px;
     }
 
-    #navb {
+    .navb {
         margin-top: 24vw;
         margin-left: -190px;
         width: 170px;
     }
 
-    #navc {
+    .navc {
         margin-top: 33vw;
         margin-left: -190px;
         width: 170px;
@@ -388,26 +412,47 @@ figcaption {
         height: 7vw;
     }
 
+    .website {
+        padding: 6px;
+    }
+
+    .section_wrapper a {
+        font-size: 1.7vw;
+    }
+
 }
 
 
 @media (min-width: 900px) {
 
+    .splashbillede img,
+    .moodboard img,
+    .navcss img,
+    .decide img,
+    .ui3 img,
+    .ui4 img,
+    .pitch img,
+    .forsteudkast img,
+    .statem img {
+        width: 60%;
+        height: 60%;
+    }
+
     nav {
         width: 70%;
     }
 
-    #nava {
+    .nava {
         margin-top: 10vw;
         margin-left: -90px;
 
     }
 
-    #navb {
+    .navb {
         margin-top: 20vw;
     }
 
-    #navc {
+    .navc {
         margin-top: 29vw;
     }
 
@@ -420,7 +465,7 @@ figcaption {
 
     #section1 nav {
         margin-left: 20vw;
-        margin-top: -10vw;
+        margin-top: -13vw;
     }
 
     #section1 nav a,
@@ -458,25 +503,29 @@ figcaption {
         font-size: 1.5vw;
     }
 
-    .section_wrapper img {
-        width: 40vw;
-        height: 40vw;
+    .website {
+        padding: 4px;
     }
+
+    .section_wrapper a {
+        font-size: 1.5vw;
+    }
+
 
 }
 
 @media (min-width: 1000px) {
 
-    #nava {
+    .nava {
         margin-left: -100px;
 
     }
 
-    #navb {
+    .navb {
         margin-top: 19vw;
     }
 
-    #navc {
+    .navc {
         margin-top: 27vw;
     }
 
@@ -514,11 +563,6 @@ figcaption {
         font-size: 1.2vw;
     }
 
-    .section_wrapper img {
-        width: 30vw;
-        height: 30vw;
-    }
-
 }
 
 @media (min-width: 1100px) {
@@ -527,17 +571,17 @@ figcaption {
         width: 60%;
     }
 
-    #nava {
+    .nava {
         margin-left: -110px;
         margin-top: 12vw;
 
     }
 
-    #navb {
+    .navb {
         margin-top: 20vw;
     }
 
-    #navc {
+    .navc {
         margin-top: 27vw;
     }
 
@@ -572,10 +616,6 @@ figcaption {
 
     }
 
-    .section_wrapper img {
-        width: 30vw;
-        height: 30vw;
-    }
 
     figcaption {
         margin-bottom: 3vw;
@@ -597,6 +637,14 @@ figcaption {
     nav img {
         width: 8vw;
         height: 8vw;
+    }
+
+    .website {
+        width: 13vw;
+    }
+
+    .section_wrapper a {
+        font-size: 1.2vw;
     }
 
 
