@@ -33,9 +33,8 @@ p {
 figcaption {
     font-family: 'Merriweather', serif;
     font-size: 1.8vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 5vw;
+    margin-left: -3vw;
+    margin-top: -4vw;
 }
 
 a:link {
@@ -164,7 +163,11 @@ ul li {
 
     ul li {
         font-size: 2.3vw;
+    }
 
+    figcaption {
+        margin-left: -2vw;
+        margin-top: -3vw;
     }
 
 }
@@ -202,7 +205,11 @@ ul li {
 
     ul li {
         font-size: 2vw;
+    }
 
+    figcaption {
+        margin-left: -1vw;
+        margin-top: -2vw;
     }
 
 }
@@ -317,6 +324,10 @@ ul li {
         height: 7vw;
     }
 
+    figcaption {
+        margin-left: 0vw;
+    }
+
 }
 
 
@@ -390,6 +401,10 @@ ul li {
     .section_wrapper img {
         width: 40vw;
         height: 40vw;
+    }
+
+    figcaption {
+        margin-left: 1vw;
     }
 
 }
@@ -508,6 +523,8 @@ ul li {
 
     figcaption {
         margin-bottom: 3vw;
+        margin-left: 2vw;
+        margin-top: -1vw;
     }
 
     .section_wrapper {
